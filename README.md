@@ -77,4 +77,5 @@ For any queries or support, please contact:
 
 - **Name**: Your Name
 - **Email**: siddadeepika@gmail.com
-- **GitHub**: [yourusername](([https://github.com/DeepikaSidda]))
+- **GitHub**: [DeepikaSidda](https://github.com/DeepikaSidda)
+
