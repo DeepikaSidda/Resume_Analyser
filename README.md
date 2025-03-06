@@ -70,7 +70,7 @@ Open your web browser and navigate to the provided localhost URL to access the a
 ## 📸 Image Gallery
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin_dashboard.png)
+![Admin Dashboard](screenshots/admin_dashborad.jpg)
 
 ### Resume Processing
 ![Resume Processing](screenshots/resume_processing.png)
