@@ -69,20 +69,20 @@ Open your web browser and navigate to the provided localhost URL to access the a
 
 ## 📸 Image Gallery
 
-### Admin Dashboard
-![Admin Dashboard](screenshots/admin_dashborad.jpg)
+### User Dashboard
+![Admin Dashboard](screenshots/user_dashboard.jpg)
 
 ### Resume Processing
-![Resume Processing](screenshots/resume_processing.png)
+![Resume Processing](screenshots/resume_analysis.jpg)
 
 ### Career Recommendations
-![Career Recommendations](screenshots/career_recommendations.png)
+![Career Recommendations](screenshots/career_recommandations.jpg)
 
 ### Running the Application
-![Application Running](screenshots/app_running.png)
+![Application Running](screenshots/code_processing.jpg)
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin_dashboard.png)
+![Admin Dashboard](screenshots/admin_dashborad.jpg)
 
 
 ## Acknowledgments
