@@ -1,33 +1,80 @@
+# AI Resume Screening & Candidate Ranking System
 
-## Source
-- Extracting user's information from the Resume, I used [PyResparser](https://omkarpathak.in/pyresparser/)
-- Extracting Resume PDF into Text, I used [PDFMiner](https://pypi.org/project/pdfminer/).
+## Problem Statement
+In the modern recruitment process, organizations receive an overwhelming number of resumes for each job opening. Screening these resumes to identify the most suitable candidates is a time-consuming and labor-intensive task. Automating this process using machine learning and natural language processing (NLP) techniques can significantly improve the efficiency and effectiveness of recruitment.
+
+## Proposed Solution
+To address the challenges of automating the resume screening process, we propose a solution that leverages deep learning and natural language processing (NLP) techniques. The solution will involve developing a comprehensive pipeline that handles:
+
+- **Job description matching**
+- **Candidate ranking**
+
+The final product is a web-based application that recruiters can use to streamline the initial stages of the recruitment process.
 
 ## Features
-- User's & Admin Section
-- Resume Score
-- Career Recommendations
-- Resume writing Tips suggestions
-- Courses Recommendations
-- Skills Recommendations
-- Youtube video recommendations
+### Resume Processing
+- **Extracting User's Information**: Using PyResparser to extract user details from resumes.
+- **Extracting Resume Text**: Using PDFMiner to convert PDF resumes into text for processing.
+
+### User & Admin Sections
+- **Resume Score**: Provides a score based on how well the resume matches the job description.
+- **Career Recommendations**: Suggests career paths based on the user's skills and experience.
+- **Resume Writing Tips**: Offers suggestions to improve the resume.
+- **Courses Recommendations**: Recommends relevant courses to enhance skills.
+- **Skills Recommendations**: Suggests skills to add to the resume.
+- **YouTube Video Recommendations**: Provides links to relevant YouTube videos for skill improvement.
+
+### Machine Learning
+- **KNN Algorithm**: Used in `Classifier.py` for resume classification and ranking.
 
 ## Usage
-- Clone my repository.
-- Open CMD in working directory.
-- Run following command.
-  ```
-  pip install -r requirements.txt
-  ```
-- `App.py` is the main Python file of Streamlit Web-Application. 
-- `Courses.py` is the Python file that contains courses and youtube video links.
-- Download XAMP or any other control panel, and turn on the Apache & SQL service.
-- To run app, write following command in CMD. or use any IDE.
-  ```
-  streamlit run App.py
-  ```
-- `Uploaded_Resumes` folder is contaning the user's uploaded resumes.
-- `Classifier.py` is the main file which is containing a KNN Algorithm.
-- For more explanation of this project see the tutorial on Machine Learning Hub YouTube channel.
-- Admin side credentials is `machine_learning_hub` and password is `mlhub123`. 
+### Installation
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/ai-resume-screening.git
+cd ai-resume-screening
+```
+Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Set up XAMPP or any other control panel and turn on the Apache & SQL services.
 
+### Running the Application
+Run the Streamlit application:
+```bash
+streamlit run App.py
+```
+Open your web browser and navigate to the provided localhost URL to access the application.
+
+### Admin Access
+- **Username**: machine_learning_hub
+- **Password**: mlhub123
+
+## Future Scope
+- **Advanced NLP Techniques**: Integrate advanced NLP techniques like BERT or GPT for improved contextual understanding and semantic matching.
+- **Custom-Trained Deep Learning Model**: Implement a custom-trained deep learning model for more accurate resume ranking.
+- **Structured Data Extraction**: Incorporate structured data extraction from resumes to better assess qualifications and skills.
+- **Interactive Dashboards**: Expand with interactive dashboards for data visualization and improved user interaction.
+- **Multi-Language Support**: Add multi-language support to cater to a global audience.
+- **Security Measures**: Strengthen security measures for robust protection of data and system integrity.
+- **Regular Updates**: Establish regular updates and feedback loops for continuous improvement and adaptability to industry changes.
+
+## Project Structure
+- `App.py`: The main Python file for the Streamlit web application.
+- `Courses.py`: Contains courses and YouTube video links for recommendations.
+- `Uploaded_Resumes/`: Folder containing user-uploaded resumes.
+- `Classifier.py`: Contains the KNN algorithm for resume classification.
+- `requirements.txt`: Lists all the dependencies required to run the project.
+
+## Acknowledgments
+Thanks to the open-source community for providing the tools and libraries that made this project possible.
+
+Special thanks to the contributors who helped in developing and testing the system.
+
+## Contact
+For any queries or support, please contact:
+
+- **Name**: Your Name
+- **Email**: your.email@example.com
+- **GitHub**: [yourusername](https://github.com/yourusername)
