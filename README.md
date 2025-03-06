@@ -48,8 +48,8 @@ streamlit run App.py
 Open your web browser and navigate to the provided localhost URL to access the application.
 
 ### Admin Access
-- **Username**: machine_learning_hub
-- **Password**: mlhub123
+- **Username**: deepu_sid
+- **Password**: deepu@21
 
 ## Future Scope
 - **Advanced NLP Techniques**: Integrate advanced NLP techniques like BERT or GPT for improved contextual understanding and semantic matching.
