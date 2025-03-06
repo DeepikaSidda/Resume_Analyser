@@ -76,5 +76,5 @@ Special thanks to the contributors who helped in developing and testing the syst
 For any queries or support, please contact:
 
 - **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: siddadeepika@gmail.com
+- **GitHub**: [yourusername]([https://github.com/DeepikaSidda])
