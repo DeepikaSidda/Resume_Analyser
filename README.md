@@ -75,7 +75,7 @@ Special thanks to the contributors who helped in developing and testing the syst
 ## Contact
 For any queries or support, please contact:
 
-- **Name**: Your Name
+- **Name**: Deepika Sidda
 - **Email**: siddadeepika@gmail.com
 - **GitHub**: [DeepikaSidda](https://github.com/DeepikaSidda)
 
