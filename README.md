@@ -67,6 +67,24 @@ Open your web browser and navigate to the provided localhost URL to access the a
 - `Classifier.py`: Contains the KNN algorithm for resume classification.
 - `requirements.txt`: Lists all the dependencies required to run the project.
 
+## 📸 Image Gallery
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin_dashboard.png)
+
+### Resume Processing
+![Resume Processing](screenshots/resume_processing.png)
+
+### Career Recommendations
+![Career Recommendations](screenshots/career_recommendations.png)
+
+### Running the Application
+![Application Running](screenshots/app_running.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin_dashboard.png)
+
+
 ## Acknowledgments
 Thanks to the open-source community for providing the tools and libraries that made this project possible.
 
